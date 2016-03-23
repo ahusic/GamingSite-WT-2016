@@ -1,0 +1,192 @@
+body{
+	background:grey;
+	text-align: center;
+}
+
+ul li{
+	display: inline-block;
+	list-style: none;
+	width: 10%;
+	background: rgba(220,  148,  56,  0.9);
+	padding: 10px 0px;
+	min-width: 150px;
+	margin-top:70px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	display:block;
+}
+
+ul li:hover{
+	background: rgba(215,  40, 40, 0.9);
+	cursor: pointer;
+}
+ul li hover a{
+	display:block;
+}
+ul .leftOne{
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+ul .rightOne{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+ul #homepage{
+	background: rgba(215,  40, 40, 0.9);
+}
+ul #partOne{
+	background: rgba(215,  40, 40, 0.9);
+}
+ul #partTwo{
+	background: rgba(215,  40, 40, 0.9);
+}
+ul #partFour{
+	background: rgba(215,  40, 40, 0.9);
+}
+
+table{
+	width: 80%;
+	height: auto;
+	margin-top:50px;
+}
+
+table tr td{
+	height: 50px;
+}
+
+table tr .firstRow{
+	background:#d3a15f;
+}
+
+table tr .secondRow{
+	background:green;
+}
+
+input{
+	width: 200px;
+	height: 40px;
+	border: none;
+	background:white;
+	padding-left: 5px;
+	margin-left:20px;
+	
+}
+
+ #surname{
+	
+	margin-left:10px;
+}
+#name{
+	margin-left:25px;
+}
+
+#submit{
+	width: 150px;
+	height: 30px;
+	background:black;
+	color: white;
+	border-radius: 10px;
+}
+#submit:hover{
+	background:white;
+	color:black;
+	cursor: pointer;
+}
+
+label{
+	width: 100px;
+	background:grey;
+}
+
+#logo{
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background:orange;
+	color:white;
+	border:1px solid white;
+}
+
+#logo p{
+	position: fixed;
+	margin-top: 10px;
+	margin-left: 28px;
+	font-size: 50px;
+}
+
+#logo #prva, #logo #druga, #logo #treca, #logo #zero{
+	position: fixed;
+	font-size: 20px;
+	top:0px;
+	left: 0px;
+}
+#logo #prva{
+	margin-top: 90px;
+	margin-left: 60px;
+}
+
+#logo #druga{
+	margin-top: 80px;
+	margin-left:35px;
+}
+
+#logo #treca{
+	margin-top: 80px;
+	margin-left: 85px;
+}
+
+#logo #zero{
+	margin-top: 15px;
+	margin-left: 60px;
+}
+
+#logo #circle{
+	width: 55px;
+	height: 55px;
+	position: fixed;
+	border:1px solid white;
+	border-radius: 50%;	
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+
+#background{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -1000;
+}
+
+ #gamesList{
+	margin-top:80px;
+	background-color:grey;
+	
+}
+#gamesList li{
+	background-color:grey;
+	display:list-item;
+	margin:10px;
+	color:#a30f2d;
+	position:center;
+}
+
+
+
+
+
+
+
+
+
+
+
