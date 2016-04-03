@@ -1,0 +1,203 @@
+#background , .nav{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+#background{height: 100%; z-index: -1000;}
+
+.nav{
+	z-index: 1000;
+	margin: 0px;
+	list-style: none;
+	background-color: rgba(0, 0, 0, 0.25);
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+}
+.nav li{
+	display: inline-block;	
+}
+.nav .navMenu:hover{cursor: pointer; background: rgba(255,255,255,0.25);}
+.nav li a{
+	color: white;
+	text-decoration: none;
+	font-family: cursive;
+}
+.nav .logo{
+	width: 80px;
+	position: absolute;
+	left: 0px;
+}
+
+.nav .search{
+	width: 180px;
+	right: 50px;
+	position: absolute;
+	background: rgba(0,0,0,0.25);
+}
+
+.nav .navMenu{
+	width: 120px;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding:5px 0px;
+}
+
+.pc{border-bottom-left-radius: 10px;border-top-left-radius: 10px;}
+
+.more{border-bottom-right-radius: 10px; border-top-right-radius: 10px;}
+
+.search input{
+	border:none;
+	width: 150px;
+	padding-left: 30px;
+	background-image: url("../search.png") no-repeat 0 0;
+	background: url("../search.png") no-repeat 0 0;
+	background-size: 30px;
+	height: 30px;
+	outline: none;
+	color: white;
+}
+
+.news, .topGames{
+	position: absolute;
+	top: 150px;
+}
+.news{
+	left: 10%;
+	width: 60%;
+	height: auto;
+	
+	padding-left: 20px;
+}
+.topGames{
+	background: rgba(0,0,0,0.25);
+	margin-left: 25px;
+	position: absolute;
+	left: 70%;
+	width: 20%;
+	height: auto;
+}
+.topGames ul{list-style: none;}
+.row{
+	width: 100%;
+	
+}
+.picture{
+	padding-top: 25px;
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	height: auto;
+}
+.picture img{
+	width: 100%;
+	height: auto;
+}
+.aboutNew{
+	margin-top: -200px;
+	width: 70%;
+	margin-left: 225px;
+	height: auto;
+}
+.contact_form{position: absolute; margin-top: 150px; width: 80%; margin-left: 10%;}
+.contact_form table{width: 60%;}
+.contact_form table tr .first{width: 40%; background: rgba(0,0,0,0.25); text-align: center;}
+.contact_form table tr td input{width: calc(100% - 20px); background: rgba(0,0,0,0.25); color:white; border: none; height: 35px; padding-left: 20px; }
+label{
+	color: white;
+}
+label:hover{cursor: pointer;}
+#submit{width: 100%; padding: 0px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;}
+#submit:hover{
+	cursor: pointer;
+	background: rgba(0,0,0,0.5);
+}
+.header{
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	text-align: center;
+	font-family: cursive;
+	height: 40px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.hugePic{
+	margin-top: 20px;
+	width: calc(100% - 20px);
+	height: 300px;
+}
+.hugePic img{
+	width: 100%;
+	height: 100%;
+}
+
+.hugePicSub{
+	background: rgba(0,0,0,0.4);
+	width: calc(100% - 80px);
+	position: absolute;
+	margin-top: -140px;
+}
+.hugePicSub:hover, .smalPicSub:hover, .smalRightSub:hover{cursor: pointer;}
+.leftPicture{
+	float: left;
+	width: 50%;
+	height: 300px;
+}
+.leftPicture img{
+	width: 100%;
+	height: 100%;
+}
+.rightPicture{
+	margin-left: 50%;
+	width: 50%;
+	height: 300px;
+}
+.rightPicture img{
+	width: 100%;
+	height: 100%;
+}
+.hugePicSub, .smalPicSub, .smalRightSub{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: cursive;
+	color: white;
+	font-size: 20px;
+}
+.smalPicSub,.smalRightSub{
+	position: absolute;
+	margin-top: -140px;
+	width: calc(50% - 50px);
+	background: rgba(0,0,0,0.4);
+}
+
+.footer{
+	background: rgba(0,0,0,0.4);
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+.footer tr td{width: 25%; border-left: 1px solid white;}
+
+.footer tr .firstOne{
+	background: rgba(0,0,0,0.4);
+}
+
+.footer tr .thirdOne{background: rgba(0,0,0,0.2);}
+
+select{position: absolute; left: 10%; top: 100px;}
+button{position: absolute; left: calc(10% + 200px); top: 100px;}
+
+.date{
+	background: no-repeat;
+	border: none;
+	width: 20px;
+}

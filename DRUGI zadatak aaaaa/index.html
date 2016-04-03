@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Naslovna</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript">	
+		var d = new Date();
+		var mjesec = d.getMonth();
+		var godina = d.getFullYear();
+		var dan = d.getDate();
+		var sati = d.getHours();
+		var minute = d.getMinutes();
+		function Ispisi(){	
+			document.getElementById("demo").innerHTML = document.getElementById(4).value;
+				if(document.getElementById(1).value==godina
+				  && document.getElementById(2).value==mjesec+1
+				  && document.getElementById(3).value==dan
+				  && document.getElementById(4).value==sati
+				  && document.getElementById(5).value==minute				 
+				  ){
+					document.getElementById("prviParagraph").innerHTML = "Novost objavljena prije par sekundi";
+
+				}
+				if(document.getElementById(6).value==godina
+				  && document.getElementById(7).value==mjesec+1
+				  && document.getElementById(8).value==dan
+				  && document.getElementById(9).value==sati
+				  && document.getElementById(10).value==minute				 
+				  ){
+					document.getElementById("drugiParagraph").innerHTML = "Novost objavljena prije par sekundi";
+
+				}
+				if(document.getElementById(11).value==godina
+				  && document.getElementById(12).value==mjesec+1
+				  && document.getElementById(13).value==dan
+				  && document.getElementById(14).value==sati
+				  && document.getElementById(15).value==minute				 
+				  ){
+					document.getElementById("treciParagraph").innerHTML = "Novost objavljena prije par sekundi";	
+
+				}
+				if(document.getElementById(16).value==godina
+				  && document.getElementById(17).value==mjesec+1
+				  && document.getElementById(18).value==dan
+				  && document.getElementById(19).value==sati
+				  && document.getElementById(20).value==minute				 
+				  ){	
+					document.getElementById("cetvrtiParagraph").innerHTML = "Novost objavljena prije par sekundi";
+				}
+				if(document.getElementById(21).value==godina
+				  && document.getElementById(22).value==mjesec+1
+				  && document.getElementById(23).value==dan
+				  && document.getElementById(24).value==sati
+				  && document.getElementById(25).value==minute				 
+				  ){
+					document.getElementById("petiParagraph").innerHTML = "Novost objavljena prije par sekundi";
+
+				}
+				if(document.getElementById(26).value==godina
+				  && document.getElementById(27).value==mjesec+1
+				  && document.getElementById(28).value==dan
+				  && document.getElementById(29).value==sati
+				  && document.getElementById(30).value==minute				 
+				  ){
+					document.getElementById("sestiParagraph").innerHTML = "Novost objavljena prije par sekundi";
+
+				}
+				
+}	</script>
+</head>
+<body onload="Ispisi();">
+<img id="background" src="ios7.jpg">
+<ul class="nav">
+	<li class="logo"><a href="">LOGO</a></li>
+	<li class="navMenu pc"><a href="index.html">Home</a></li>
+	<li class="navMenu"><a href="pc.html">PC</a></li>
+	<li class="navMenu"><a href="ps.html">PS4</a></li>
+	<li class="navMenu"><a href="xbox.html">xBoxOne</a></li>
+	<li class="navMenu"><a href="android.html">Android</a></li>
+	<li class="navMenu more"><a href="more.html">Kontakt</a></li>
+	<li class="search">
+      <input type="search" placeholder="Search..." id="search-input" />
+	</li>
+</ul>
+<p id="demo"></p>
+<select id="select">
+  <option id="danasnje" value="1">današnje novosti</option>
+  <option id="ha" value="2">novosti ove sedmice</option>
+  <option value="3">novosti ovog mjeseca</option>
+  <option value="4">sve novosti</option>
+</select>
+<button type="button" onclick="myFunction()">U redu</button>
+<section class="news">
+	<div class="row" id="prvi">
+		<div class="picture divs">
+			<img src="user.png">
+		</div>
+		<div class="aboutNew divs">
+			<h3>prvi</h3>
+			<p id="prviParagraph">
+				<input type="hidden" value="2016" id="1"> <!--godina -->
+				<input type="hidden" value="4" id="2">	<!--mjesec -->
+				<input type="hidden" value="3" id="3">	<!--dan -->
+				<input type="hidden" value="0" id="4">	<!--sati -->
+				<input type="hidden" value="21" id="5">	<!--minute -->
+			</p>
+			<p>Novost objavljena prije par sekundi</p>
+		</div>
+		<br><br><br><br>
+	</div> 
+	<div class="row" id="drugi">
+		<div class="picture divs">
+
+			<img src="user.png">
+		</div>
+		<div class="aboutNew divs">
+			<h3>Naslov</h3>
+			<p id="drugiParagraph">
+				<input type="hidden" value="2016" id="6"> <!--godina -->
+				<input type="hidden" value="4" id="7">	<!--mjesec -->
+				<input type="hidden" value="3" id="8">	<!--dan -->
+				<input type="hidden" value="0" id="9">	<!--sati -->
+				<input type="hidden" value="17" id="10">	<!--minute -->
+			</p>
+			<p>Novost je objavljena prije 5 minuta</p>
+		</div>
+	</div>
+	<div class="row">
+		<br><br><br><br>
+		<div class="picture divs">
+			<img src="user.png">
+		</div>
+		<div class="aboutNew divs">
+			<h3>Naslov</h3>
+			<p id="treciParagraph">
+				<input type="hidden" value="2016" id="11"> <!--godina -->
+				<input type="hidden" value="4" id="12">	<!--mjesec -->
+				<input type="hidden" value="3" id="13">	<!--dan -->
+				<input type="hidden" value="23" id="14">	<!--sati -->
+				<input type="hidden" value="17" id="15">	<!--minute -->
+			</p>
+			<p>Novost je objavljena prije 2 sata</p>
+		</div>
+	</div>
+	<div class="row">
+		<br><br><br><br>
+		<div class="picture divs">
+			<img src="user.png">
+		</div>
+		<div class="aboutNew divs">
+			<h3>Naslov</h3>
+			<p id="cetvrtiParagraph">
+				<input type="hidden" value="2016" id="16"> <!--godina -->
+				<input type="hidden" value="4" id="17">	<!--mjesec -->
+				<input type="hidden" value="3" id="18">	<!--dan -->
+				<input type="hidden" value="23" id="19">	<!--sati -->
+				<input type="hidden" value="18" id="20">	<!--minute -->
+			</p>
+			<p>Novost je objavljena prije 6 sati</p>
+		</div>
+	</div>
+	<div class="row">
+		<br><br><br><br>
+		<div class="picture divs">
+			<img src="user.png">
+		</div>
+		<div class="aboutNew divs">
+			<h3>Naslov</h3>
+			<p id="petiParagraph">
+				<input type="hidden" value="2016" id="21"> <!--godina -->
+				<input type="hidden" value="4" id="22">	<!--mjesec -->
+				<input type="hidden" value="3" id="23">	<!--dan -->
+				<input type="hidden" value="23" id="24">	<!--sati -->
+				<input type="hidden" value="18" id="25">	<!--minute -->
+			</p>
+			<p>Novost je objavljena prije 3 dana</p>
+		</div>
+	</div>
+	<div class="row">
+		<br><br><br><br>
+		<div class="picture divs">
+			<img src="user.png">
+		</div>
+		<div class="aboutNew divs">
+			<h3>Naslov</h3>
+			<p id="sestiParagraph">
+				<input type="hidden" value="2016" id="26"> <!--godina -->
+				<input type="hidden" value="4" id="27">	<!--mjesec -->
+				<input type="hidden" value="3" id="28">	<!--dan -->
+				<input type="hidden" value="23" id="29">	<!--sati -->
+				<input type="hidden" value="20" id="30">	<!--minute -->
+			</p>
+			<p>Novost je objavljena prije 5 dana</p>
+		</div>
+	</div>
+</section>
+<aside class="topGames">
+	<ul>
+		<li>1. </li>
+		<li>2. </li>
+		<li>3. </li>
+		<li>4. </li>
+		<li>5. </li>
+		<li>6. </li>
+		<li>7. </li>
+		<li>8. </li>
+		<li>9. </li>
+		<li>10. </li>
+	</ul>
+</aside>
+	
+</body>
+</html>
