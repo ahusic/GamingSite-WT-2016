@@ -20,7 +20,7 @@ ul li a{
 }
 
 ul li:hover{
-	background: rgba(215,  40, 40, 0.9);
+	background: rgba(215,  40, 40, 0.8);
 	cursor: pointer;
 }
 ul li hover a{
