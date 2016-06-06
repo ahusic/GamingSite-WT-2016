@@ -86,3 +86,43 @@ a{color: #fff; text-decoration: none;}
 	text-align: center;
 	z-index: 10000000000000;
 }
+
+
+#navBar #userProfileLink{
+	position: fixed;
+	right: 40px;
+	top: 20px;
+}
+
+.userAJDIII{color: red; display: inline;}
+
+.userAJDIII #weeehsadsa{
+	margin:none;
+	margin-left: 80px;
+	margin-top: -20px;
+	padding: none;
+}
+
+#notifikacije{
+	position: fixed;
+	z-index: 10000000000;
+	right: 100px;
+	width: 400px;
+	height:400px;
+	background: white;
+	top: 60px;
+	display: none;
+	border: 1px solid #333;
+}
+
+#justNotifiMe{
+	position: fixed;
+	right: 150px;
+	top: 20px;
+	color: #fff;
+	z-index: 100000000000000;
+}
+
+#justNotifiMe:hover{cursor: pointer;}
+
+#wee{color: black;}

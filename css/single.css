@@ -1,0 +1,18 @@
+table{
+	position: absolute;
+	left: 350px;
+	width: calc(100% - 400px);
+	top: 100px;
+}
+
+table tr td{
+	width: 100%;
+	height: 300px;
+	vertical-align: top;
+	background: yellow;
+}
+
+table tr td h4 #date{float: right; padding: 0px 20px;}
+
+table tr td h5{margin-left: 50px;}
+table tr td h5 p{margin-left: 50px;}

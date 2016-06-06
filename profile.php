@@ -1,5 +1,5 @@
 <?php 
-include 'db.php';
+include 'class.php';
 $user = new User();
 ?>
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ $user = new User();
 <section>
 <table>
 	<?php 
-		$user->ispisiSveVijesti();
+		$user->ispisiSveVijestiALI(Input::get('user'));
 	?>
 </table>
 </section>
